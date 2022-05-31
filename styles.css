@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: red;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+}
+
+.top {
+  background-color: #F0F8FF;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container {
+  margin: 100px 0;
+
+}
+.bottom-container {
+  background-color: blue;
+  padding: 50px 0 20px 0;
+
+}
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.sub {
+  font-size: 2.5rem;
+  margin: 50px auto 0 auto;
+  color: blue;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1;
+
+}
+.img1 {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+
+
+}
+.img2 {
+  float: right;
+  margin-left: 30px;
+  width: 50%;
+
+  }
+  .intro {
+    width: 50%;
+    margin: auto;
+  }
+  .contact-message {
+    width: 50%;
+    margin: 30px auto 30px auto ;
+  }
+
+  .btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #e80023);
+  background-image: -moz-linear-gradient(top, #3498db, #e80023);
+  background-image: -ms-linear-gradient(top, #3498db, #e80023);
+  background-image: -o-linear-gradient(top, #3498db, #e80023);
+  background-image: linear-gradient(to bottom, #3498db, #e80023);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #f7161e);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #f7161e);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #f7161e);
+  background-image: -o-linear-gradient(top, #3cb0fd, #f7161e);
+  background-image: linear-gradient(to bottom, #3cb0fd, #f7161e);
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  margin: 50px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+.copyright {
+  padding: 20px 0;
+}
+.profil {
+  border-radius: 50%;
+}
